@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Rogelio dice...</title>
+		<link rel="stylesheet" type="text/css" href="static/style.css"></link>
+		<script type="text/javascript">
+			window.onload = function(){
+				var palabras = ["opción","nupcias","nupcial","inepcia","egipcio","egipcia","capción","opciones","opcional","inepcias","erupción","capcioso","capciosa","adopción","acepción","recepción","obrepción","irrupción","excepción","decepción","abrupción","suscepción","subrepción","precepción","percepción","erupciones","erupcionar","disrupción","corrupción","concepción","adopciones","acepciones","suscripción","subcripción","recepciones","obrepciones","nupcialidad","irrupciones","inscripción","excepcional","descripción","capciosidad","apercepción","antenupcial","adscripción","trascripción","suscepciones","subscripción","subrepciones","proscripción","prescripción","percepciones","interrupción","intercepción","incorrupción"];
+				var rand = palabras[Math.floor(Math.random() * palabras.length)].replace("pc", "cc");
+				document.getElementById("frase").innerHTML = rand;
+			}
+		</script>
+	</head>
+	<body>
+		<p id="frase" class="speech">Hola</p>
+	</body>
+</html>
