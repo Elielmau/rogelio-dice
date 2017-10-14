@@ -14,6 +14,11 @@ p.speech {
   box-shadow: 2px 2px 4px #888;
   margin-top: 50px;
   margin-left: 50px;
+  /*General configuration*/
+  font-size: 24px;
+  text-transform: capitalize;
+  color: #333;
+  cursor: pointer;
   }
 
   p.speech:before {
@@ -39,9 +44,7 @@ p.speech:after {
 }
 
 p.speech {
-  font-size: 24px;
-  text-transform: capitalize;
-  color: #333;
+
 }
 
 body {
